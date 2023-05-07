@@ -1,1 +1,1 @@
-# sticky-nav
+# sticky-nav makes the page attractive
