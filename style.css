@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home, .about, .services{
+    height: 100vh;
+    width: 100%;
+}
+#one, #two ,#three{
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#navbar > ul{
+    display: flex;
+    justify-content: space-around;
+}
+#navbar > ul > li{
+    list-style-type: none;
+}
+#navbar > ul > li > a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+#navbar{
+    background-color: rgb(108, 18, 192);
+    padding: 1rem;
+}
+.sticky{
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
